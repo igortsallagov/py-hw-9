@@ -66,7 +66,7 @@ def core():
     translated_name = str(input("Введите имя папки для переведенных файлов (по умолчанию - Translations): "))
     if len(translated_name) == 0:
         translated_name = "Translations"
-    input_4 = str(input("Введите язык, на который перевести в формате ru, en, es, fr и т.д. (по умолчанию - ru): "))
+    input_4 = str(input("Введите язык, на который перевести, в формате ru, en, es, fr и т.д. (по умолчанию - ru): "))
     if len(input_4) < 2:
         to_lang = 'ru'
     else:
